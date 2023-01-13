@@ -13,4 +13,3 @@ This repository is an example on how to test a [Python](https://python.org) proj
 
 See [Licence.md](Licence.md) (MIT)
 
-
