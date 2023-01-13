@@ -1,5 +1,5 @@
 steps:
-- label: run pytest
+- label: :python: :pytest: run pytest
   agents:
     queue: kubernetes
   plugins:
