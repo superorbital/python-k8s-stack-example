@@ -1,4 +1,4 @@
-# Buildkite Python Docker Example (using pipenv)
+# Buildkite Python Kubernetes Stack Example (using pipenv)
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
