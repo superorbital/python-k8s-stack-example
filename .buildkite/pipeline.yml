@@ -8,6 +8,10 @@ steps:
         containers:
         - image: python:latest
           command: [.buildkite/steps/test.sh]
+          resources:
+            limits:
+              cpu: 1
+              memory: 1Gi
           envFrom:
             - secretRef:
                 name: buildkite-analytics
