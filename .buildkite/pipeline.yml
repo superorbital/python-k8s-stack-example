@@ -10,8 +10,8 @@ steps:
           command: [.buildkite/steps/test.sh]
           resources:
             limits:
-              cpu: 1
-              memory: 1Gi
+              cpu: "1"
+              memory: "1Gi"
           envFrom:
             - secretRef:
                 name: buildkite-analytics
